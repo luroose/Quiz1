@@ -4,75 +4,100 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F485AB"
-    android:backgroundTint="#FF88B0"
-    android:foregroundTint="#FFFFFF"
-    android:outlineAmbientShadowColor="#FFFFFF"
-    android:outlineSpotShadowColor="#FFFFFF"
-    tools:context=".MainActivity">
+    android:background="#FFFFFF"
+    android:backgroundTint="#E91E63"
+    tools:context=".MainActivity4"
+    tools:layout_editor_absoluteX="-2dp"
+    tools:layout_editor_absoluteY="1dp">
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="96dp"
-        android:layout_marginEnd="150dp"
-        android:fontFamily="sans-serif"
-        android:text="ข้อใดคือจอภาพ"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="508dp"
+        android:backgroundTint="#8243F1"
+        android:text="ย้อนกลับ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="144dp"
+        android:text="1 + 2 x 3 - 4 ÷ 4 = ?"
+        android:textColor="#ECE7E7"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
-        android:id="@+id/RadioGroup"
-        android:layout_width="247dp"
-        android:layout_height="214dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="168dp"
+        android:id="@+id/RadioGroup1"
+        android:layout_width="305dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="248dp"
+        android:background="#8649F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
             android:id="@+id/radioButton"
-            android:layout_width="match_parent"
+            android:layout_width="362dp"
             android:layout_height="wrap_content"
-            android:text="Monitor"
-            android:textSize="16sp" />
+            android:text="4"
+            android:textColor="#EDE8E8"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="267dp" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="tadpad"
-            android:textSize="16sp" />
+            android:text="5"
+            android:textColor="#EDE8E8"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="322dp" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="keyborad"
-            android:textSize="16sp" />
+            android:text="6"
+            android:textColor="#EDE8E8"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="377dp" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="mainborad"
-            android:textSize="16sp" />
+            android:text="7"
+            android:textColor="#EDE8E8"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="425dp" />
+
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="412dp"
-        android:background="#E30D0D"
-        android:text="Submit"
+        android:layout_marginTop="508dp"
+        android:backgroundTint="#8243F1"
+        android:text="ถัดไป"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
